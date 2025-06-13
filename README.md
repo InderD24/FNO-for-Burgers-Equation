@@ -1,6 +1,6 @@
 # FNO for Burgers' Equation
 
-This repository demonstrates a minimal example of solving the one‑dimensional Burgers' equation using a **Fourier Neural Operator (FNO)** implemented in PyTorch. The code lives in a single notebook [`FNO_Burgers.ipynb`](FNO_Burgers.ipynb) which generates training data, defines the FNO model, trains it and evaluates its performance.
+This repository demonstrates an example of solving the one‑dimensional Burgers' equation using a **Fourier Neural Operator (FNO)** implemented in PyTorch. The code lives in a single notebook [`FNO_Burgers.ipynb`](FNO_Burgers.ipynb) which generates training data, defines the FNO model, trains it and evaluates its performance.
 
 ## Getting Started
 
