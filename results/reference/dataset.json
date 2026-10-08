@@ -1,0 +1,44 @@
+{
+  "config": {
+    "seed": 42,
+    "samples": 1000,
+    "grid_points": 256,
+    "reference_points": 512,
+    "initial_modes": 8,
+    "viscosity": 0.02,
+    "time": 0.5,
+    "cfl": 0.2,
+    "solver_tolerance": 0.001,
+    "solver_batch_size": 64,
+    "train_fraction": 0.7,
+    "validation_fraction": 0.15,
+    "modes": 16,
+    "width": 32,
+    "layers": 4,
+    "epochs": 100,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "threads": 2,
+    "evaluation_resolutions": [
+      256,
+      512,
+      1024
+    ],
+    "resolution_samples": 16
+  },
+  "solver_verification": {
+    "cases": 8,
+    "grid_points": 512,
+    "refined_grid_points": 1024,
+    "max_grid_relative_l2": 1.2798397800823965e-06,
+    "max_time_relative_l2": 1.2797710535417484e-06,
+    "tolerance": 0.001,
+    "passed": true
+  },
+  "generation_seconds": 13.652522999999999,
+  "split_sizes": {
+    "train": 700,
+    "validation": 150,
+    "test": 150
+  }
+}
