@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "samples": 1000,
+  "grid_points": 256,
+  "reference_points": 512,
+  "initial_modes": 8,
+  "viscosity": 0.02,
+  "time": 0.5,
+  "cfl": 0.2,
+  "solver_tolerance": 0.001,
+  "solver_batch_size": 64,
+  "train_fraction": 0.7,
+  "validation_fraction": 0.15,
+  "modes": 16,
+  "width": 32,
+  "layers": 4,
+  "epochs": 100,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "threads": 2,
+  "evaluation_resolutions": [256, 512, 1024],
+  "resolution_samples": 16
+}
